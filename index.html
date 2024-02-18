@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion-sketching master-class</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+    <script defer src="js/inputmask.min.js"></script>
+    <script defer src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <script defer src="js/burger.js"></script>
+    <script defer type="module" src="js/application.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+ <div class="body">
+  <header class="header header_position">
+    <div class="container header__container">
+     <a href="" class="logo header__logo">
+      <img src="img/logo.svg" alt="Logo">
+     </a>
+     <button class="btn-reset burger" id="burger" aria-label="меню">
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+     <nav id="menu" class="nav header__nav" title="main navigation">
+      <ul class="nav__list list-reset">
+       <li class="nav__item">
+        <a href="#about" class="nav__link" aria-label="Обо мне">Обо мне</a>
+       </li>
+       <li class="nav__item">
+        <a href="#format" class="nav__link" aria-label="Формат">Формат</a>
+       </li>
+       <li class="nav__item">
+        <a href="#feedback" class="nav__link" aria-label="Отзывы">Отзывы</a>
+       </li>
+       <li class="nav__item">
+        <a href="#contacts" class="nav__link" aria-label="Контакты">Контакты</a>
+       </li>
+       <li class="nav__item ">
+        <a href="#application" class="nav__link nav__link_blue" aria-label="ссылка">Записаться</a>
+       </li>
+      </ul>
+     </nav>
+    </div>     
+   </header>
+   <main class="main">
+    <section class="hero">
+     <div class="container hero__container">
+       <h1 class="hero__title">
+        Arabian Magic Night
+      </h1>
+      <p class="hero__descr">
+        Event-скетч в стиле "Сияющий фешн".
+      </p>
+       <span class="hero__date">
+         15 февраля 18:00
+       </span>
+       <span class="hero__place">
+          Лофт - студия “Отума”
+       </span>
+       <address class="hero__address">
+          Метро Курская, пер. Костомаровский, дом 3с3
+       </address>
+       <button id="hero__btn" class="btn-reset hero__btn" aria-label="Записаться">
+           Записаться
+      </button>
+     </div> 
+    </section>  
+    <section id="about" class="about">
+     <div class="container about__container">
+      <div class="about__content scroll">
+        <picture class="img about__img scroll__item">
+          <source srcset="img/about.avif" type="image/avif">
+          <source srcset="img/about.webp" type="image/webp">
+          <img class="img about__img scroll__item" src="img/about.jpg" alt="Diana's image">
+        </picture>
+       <div class="about__text scroll__item ">
+        <p class="about__descr">
+          Привет! Меня зовут Диана Михалева. Я работаю event-иллюстратором в Москве и Дубае.
+        </p>
+        <p class="about__descr">
+          В моей работе меня зажигает возможность схватить настроение в&nbsp;моменте, быстро преобразив его через свое видение художника и&nbsp;доступные мне стили.
+          Я&nbsp;стараюсь передать характер внешности человека, сохраняя при этом натуралистичность изображения. Поэтому профессия event-иллюстратора оказалась моим призванием. Для меня важно постоянно развиваться, искать новые способы и&nbsp;форматы передачи изображения, которое способно вызывать эмоции у&nbsp;человека, подарив ему интересный творческий опыт. 
+        </p>
+       </div>
+      </div>
+     </div>  
+    </section>
+    <section id="format" class="format">
+     <div class="container format__container scroll">
+      <h2 class="format__title scroll__item">
+         На мастер-классе...
+      </h2>
+      <div class="format__content">
+       <div class="format__text format__text_1 scroll__item">
+        <p class="format__descr">
+          Вы&nbsp;придумаете и&nbsp;нарисуете свой образ в&nbsp;стиле наряда с&nbsp;красной ковровой дорожки. Вы&nbsp;сможете визуализировать свое платье мечты и&nbsp;себя в&nbsp;нем, дополнив желаемой прической и&nbsp;украшениями.
+        </p>
+        <p class="format__descr">
+          Мы&nbsp;будем создавать скетч, учитывая культурные особенности арабских стран. Здесь нет фокуса на&nbsp;лице. Ключевой центр композиции&nbsp;&mdash; это сам наряд: дорогой, богато расшитый или сложно скроенный. Поэтому мастер-класс отлично подойдет новичкам, дизайнерам, мечтающим освоить красивую эскизную подачу. Уметь рисовать лицо вовсе не&nbsp;обязательно! Зато мастер-класс станет отличной творческой терапией и&nbsp;поможет лучше понять себя через&nbsp;то, как мы&nbsp;мыслим свой образ в&nbsp;самый яркий и&nbsp;лучший момент жизни.
+        </p> 
+       </div> 
+       <picture class="img format__img format__img_1 scroll__item">
+        <source srcset="img/format-img.avif" type="image/avif">
+        <source srcset="img/format-img.webp" type="image/webp">
+        <img class="img format__img format__img_1 scroll__item" src="img/format-img.jpg" alt="arabian sketch" loading="lazy">
+       </picture>
+       <picture class="img format__img format__img_2 scroll__item">
+        <source srcset="img/format-1.avif" type="image/avif">
+        <source srcset="img/format-1.webp" type="image/webp">
+        <img class="img format__img format__img_2 scroll__item" src="img/format-1.jpg" alt=" work place" loading="lazy">
+       </picture>
+       <div class="format__text format__text_2 scroll__item">
+        <h3 class="format__headline">
+          Условия:
+        </h3>
+        <div class="format__terms">
+         <p class="format__descr">
+          <strong>Дата: </strong> 15 февраля 2024
+         </p>  
+         <p class="format__descr">
+          <strong>Время: </strong> 18:00-20:00 
+         </p>
+         <p class="format__descr">
+          <strong>Возрастные ограничения: </strong> участники от 12 лет.
+         </p>
+         <p class="format__descr">
+          <strong>Материалы предоставляются: </strong> мы&nbsp;будем использовать технику быстрого скетча акварелью на&nbsp;листах формата&nbsp;А4. 
+         </p>
+         <p class="format__descr">
+          <strong>Идеи: </strong> не&nbsp;стоит переживать, если у&nbsp;Вас не&nbsp;будет идей. Я&nbsp;собрала отличную коллекцию референсов, которые вы&nbsp;сможете повторить под моим чутким руководством.
+         </p> 
+         <p class="format__descr">
+          Урок разбит на две части с перерывом на кофе брейк.
+         </p>
+         <p class="format__descr">
+          <strong>Стоимость участия: </strong> 2900р.
+        </p>
+        </div>
+       </div>
+       <div class="format__text format__text_3 scroll__item" >
+        <h3 class="format__headline">
+          Этапы процесса:
+        </h3>
+        <div class="format__steps">
+         <p class="format__descr">
+          <strong>1. Знакомство: </strong> Я&nbsp;кратко расскажу о&nbsp;своей работе иллюстратором. Также вы&nbsp;сможете задать интересующие Вас вопросы о&nbsp;работе ивент-иллюстратора в&nbsp;России и&nbsp;Дубай. 
+         </p>
+         <p class="format__descr">
+          <strong>2. Подготовка: </strong> разберем материалы, которые будем использовать. Создадим схематичную фигурку в&nbsp;Fashion-позе.
+         </p> 
+         <p class="format__descr">
+          <strong>3.</strong> Нарисуем платье поверх фигурки. Я&nbsp;расскажу про особенности подачи и&nbsp;требования к&nbsp;ивент-скетчу в&nbsp;арабской стране.
+         </p> 
+         <p class="format__descr">
+          <strong>4.</strong> Пройдем последовательно все этапы заливки рисунка цветом.
+         </p>
+         <p class="format__descr">
+         <strong>5. Финальный&nbsp;&mdash; декоративный этап: </strong>  Расскажу про использование различных шиммеров/блесток в&nbsp;ивент-скетче. Добавим торжественного блеска нашему образу.
+         </p>
+        </div>
+       </div>
+       <picture class="img format__img format__img_3 scroll__item">
+        <source srcset="img/format-2.avif" type="image/avif">
+        <source srcset="img/format-2.webp" type="image/webp">
+        <img class="img format__img format__img_3 scroll__item" src="img/format-2.jpg" alt="sketch" loading="lazy">
+       </picture>
+      </div>
+     </div>
+    </section>
+    <section id="feedback" class="feedback">
+     <div class="container feedback__container scroll">
+      <h2 class="feedback__title scroll__item">
+        Отзывы моих клиентов
+      </h2>
+      <div class=" feedback__swiper mySwiper scroll__item">
+        <div class="feedback__cards slide-content scroll__item">
+          <ul class="swiper-wrapper feedback__list list-reset scroll__item ">
+            <li class="swiper-slide feedback__item ">
+             <article class="feedback__card">
+              <div class="feedback__content">
+               <div class="feedback__top">
+                <picture>
+                  <source srcset="img/feedback-1.avif" type="image/avif">
+                  <source srcset="img/feedback-1.webp" type="image/webp">
+                  <img src="img/feedback-1.jpg" alt="Олеся Зимина" loading="lazy">
+                 </picture>
+                <span class="feedback__name">
+                   Olesya Zimina
+                </span>
+                <span class="feedback__occupation">
+                  Основатель свадебного агентства Zimina Wedding  
+                </span>
+               </div>
+               <p class="feedback__descr">
+                Диана, спасибо огромное тебе за&nbsp;вклад в&nbsp;наш проект! Как всегда всё профессионально, красиво, тактично, вовремя! Индивидуальный подход к&nbsp;каждому гостю🫶🏼Ко мне несколько раз подходили гости и&nbsp;говорили, какие крутые скетчи😍 Рада с&nbsp;тобой работать, потому что всегда уверена в&nbsp;тебе и&nbsp;результате на&nbsp;100%. Ещё раз спасибо❤️
+               </p>
+              </div>
+             </article>
+            </li>
+            <li class="swiper-slide feedback__item">
+             <article class="feedback__card">
+               <div class="feedback__content">
+                <div class="feedback__top">
+                  <picture>
+                    <source srcset="img/feedback-2.avif" type="image/avif">
+                    <source srcset="img/feedback-2.webp" type="image/webp">
+                    <img src="img/feedback-2.jpg" alt="Кэтрин Кристал" loading="lazy">
+                  </picture>
+                 <span class="feedback__name">
+                   Catherine
+                 </span>
+                 <span class="feedback__occupation">
+                   Professional reels-maker
+                 </span>
+                </div>
+                <p class="feedback__descr">
+                  Прекрасная Диана🥰я безумно рада что нашла тебя! Мне реально очень повезло☺️мне так понравились твои работы, что я&nbsp;бронировала у&nbsp;тебя нашу дату за&nbsp;полгода до&nbsp;свадьбы 🤣
+                  Все гости были в&nbsp;восторге от&nbsp;твоих работ! Знакомые до&nbsp;сих пор просят твой контакт😏
+                  Ты&nbsp;так талантлива! Мечтаю снова с&nbsp;тобой поработать ❤️
+                  Огромное тебе спасибо :) 
+                  Ты&nbsp;&mdash; лучшее что было на&nbsp;свадьбе😇
+               </p>
+              </div>
+             </article>
+            </li>
+            <li class="swiper-slide feedback__item">
+             <article class="feedback__card">   
+              <div class="feedback__content">
+               <div class="feedback__top">
+                <picture>
+                  <source srcset="img/feedback-3.avif" type="image/avif">
+                  <source srcset="img/feedback-3.webp" type="image/webp">
+                  <img src="img/feedback-3.jpg" alt="Брайд френдс" loading="lazy">
+                </picture>
+                <span class="feedback__name">
+                   Свадебное агентство Bride Friends
+                </span>
+                <span class="feedback__occupation">
+                   Победитель White Awards 2019
+                </span>
+               </div>
+               <p class="feedback__descr" id="expandableText">
+                Уже не&nbsp;раз работали с&nbsp;Дианой как в&nbsp;рамках мероприятия (отрисовка скетчей гостей на&nbsp;свадьбе), так и&nbsp;удаленно (новогодние открытки для нашего агентства, персонализированные открытки для наших пар) и&nbsp;каждый раз оставались очень довольны результатом.<span class="feedback__more" id="more">Диана очень отзывчивая, пунктуальная, старательная. Всегда заранее согласовывала с&nbsp;нами все нюансы, макеты, предлагала наиболее удобные и&nbsp;подходящие под наш случай варианты и&nbsp;материалы. Было очень приятно работать и&nbsp;я&nbsp;уверена, что в&nbsp;будущем мы&nbsp;будем сотрудничать еще не&nbsp;раз!</span> 
+               </p>
+               <button class="btn btn-reset feedback__btn" id="moreBtn" aria-label="читать полностью">Читать отзыв полностью</button>
+              </div>
+             </article> 
+            </li>
+            <li class="swiper-slide feedback__item">
+            <article class="feedback__card">   
+              <div class="feedback__content">
+              <div class="feedback__top">
+                <picture>
+                  <source srcset="img/feedback-4.avif" type="image/avif">
+                  <source srcset="img/feedback-4.webp" type="image/webp">
+                  <img src="img/feedback-4.jpg" alt="Арабская невеста" loading="lazy">
+                </picture>
+                <span class="feedback__name">
+                  Maitha Ali
+                </span>
+                <span class="feedback__occupation">
+                  The Bride
+                </span>
+              </div>
+              <p class="feedback__descr">
+                Diana did an&nbsp;amazing job and her attitude was professional and consistent until the end with her talent shining through the lovely pages my&nbsp;family and friends now treasure and are able to&nbsp;remember my&nbsp;special night 💕🫶🏻
+              </p>
+             </div>
+            </article> 
+           </li>
+          </ul>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+     </div>
+    </section>
+    <section id="price" class="price">
+     <div class="container price__container scroll">
+      <h2 class="price__title scroll__item">
+       Стоимость участия: 2900 р.
+      </h2>
+     </div>
+    </section>
+    <section id="application" class="application">
+     <div class="container application__container scroll">
+      <h2 class="application__title scroll__item">
+       Записаться на мастер - класс
+      </h2>
+      <form id="form" class="application__form scroll__item" method="POST" enctype="multipart/form-data" autocomplete="off">
+       <div class="application__wrapper">
+        <div class="application__inputs">
+         <div class="application__box">
+          <input id="name" class="application__input" type="text" name="name" placeholder="Имя" required aria-labelledby="name" autocomplete="off">
+         </div> 
+         <div class="application__box">
+          <input id="tel" class="application__input" type="tel" name="tel" placeholder="Телефон" required aria-labelledby="tel" autocomplete="off" >
+         </div>
+         <div class="application__box">
+           <input id="email" class="application__input" type="email" name="email" placeholder="E-mail" required aria-labelledby="email" autocomplete="off" >
+         </div>
+        </div>
+        <div class=" application__wrap">
+          <button id="application__btn" class="application__btn btn-reset" type="submit" aria-label="Отправить">
+            Отправить
+         </button>
+         <label class="application__checkbox" for="checkbox">
+         <input class="application__checkbox" type="checkbox" id="checkbox" required aria-label="checkbox">
+         <span class="application__span"></span>
+            Согласен(-на) на&nbsp;обработку персональных данных
+         </label>
+         <div class="modal" id="modal">
+          <div class="modal__box">
+            <button class="modal__close" id="close-modal" aria-label="Закрыть">
+              <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"/></svg>
+            </button>
+            <h2 class="modal__header">
+              Спасибо за заявку!
+            </h2>
+            <p class="modal__descr">
+              Мы свяжемся с вами в ближайшее время!
+            </p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </form>
+     </div> 
+    </section>
+   </main>
+   <footer id="contacts" class="footer">
+    <div class="container footer__container scroll">
+     <a href="" class="footer__logo scroll__item">
+      <img src="img/logo.svg" alt="logo">
+     </a>
+     <div class="footer__content scroll__item">
+      <div class="footer__left">
+        <h3 class="footer__title scroll__item">
+          Организаторы мероприятия:
+        </h3>
+        <ul class="footer__socials socials list-reset">
+         <li class="socials__item scroll__item">
+          <a href="https://wa.me/79046523335" class="socials__link" target="_blank" aria-label="ссылка">
+           <svg width="38" height="28" viewBox="0 0 42 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1_90)">
+             <path d="M21 0C9.42012 0 0 7.40152 0 16.5C0 19.6039 1.09765 22.6171 3.17988 25.2336C2.35038 27.5169 0.852115 31.8361 0.835962 31.8812C0.758423 32.1046 0.841615 32.3432 1.05404 32.5037C1.26646 32.6643 1.57338 32.7214 1.85285 32.6541L10.1769 30.6424C13.4376 32.1858 17.1715 33 21 33C32.5799 33 42 25.5985 42 16.5C42 7.40152 32.5799 0 21 0ZM21 31.7308C17.35 31.7308 13.7946 30.9292 10.7173 29.4138C10.5872 29.3497 10.4378 29.3173 10.2884 29.3173C10.2084 29.3173 10.1285 29.3268 10.0509 29.3452L2.7825 31.1031C3.31638 29.5718 4.27592 26.8328 4.83242 25.3091C4.89704 25.1327 4.86069 24.9423 4.73388 24.7881C2.69365 22.3213 1.61538 19.4554 1.61538 16.5C1.61538 8.10213 10.3118 1.26923 21 1.26923C31.6882 1.26923 40.3846 8.10213 40.3846 16.5C40.3846 24.8979 31.6882 31.7308 21 31.7308Z" fill="white"/>
+             <path d="M34.7187 20.3878C33.2277 19.7373 31.958 19.0849 31.0315 18.6089C30.324 18.2459 29.8127 17.9838 29.438 17.836C28.3904 17.4254 27.5964 17.7154 27.2943 17.9553C27.2564 17.9851 27.2225 18.0175 27.1934 18.0517C26.1054 19.3343 24.6847 20.561 24.2687 20.627C23.7882 20.568 21.5387 19.5634 19.303 18.1006C17.0205 16.6061 15.5844 15.175 15.3736 14.2003C16.838 13.0161 17.3654 12.271 17.3654 11.4232C17.3654 10.5493 14.7711 6.90092 14.3018 6.53221C13.8309 6.16286 12.7704 6.10511 11.1494 6.35896C10.9935 6.38371 10.8497 6.444 10.7367 6.53221C10.5404 6.68642 5.94784 10.3653 8.13023 14.8241C10.5258 19.7176 16.6748 25.4057 24.5143 26.3297C25.4052 26.4344 26.2403 26.4864 27.0222 26.4864C31.6341 26.4864 34.356 24.6632 35.1225 21.0465C35.1798 20.7819 35.0175 20.5179 34.7187 20.3878ZM24.7542 25.0744C16.464 24.0977 11.2423 17.6443 9.63819 14.3684C8.04704 11.1192 10.9814 8.22219 11.718 7.56726C12.3173 7.4873 12.9481 7.45367 13.2114 7.48603C13.7615 8.08701 15.666 10.9142 15.75 11.4232C15.75 11.7564 15.6119 12.2203 13.9674 13.513C13.8156 13.6316 13.7308 13.7928 13.7308 13.9616C13.7308 17.2845 22.6509 21.8943 24.2308 21.8943C25.6047 21.8943 27.3961 20.08 28.4162 18.8977C28.4752 18.8996 28.5745 18.9155 28.7159 18.9713C29.0067 19.0862 29.5107 19.3445 30.1479 19.6719C30.9895 20.1041 32.1074 20.6778 33.4272 21.2724C32.8278 23.538 31.1527 25.8296 24.7542 25.0744Z" fill="white"/>
+             </g>
+             <defs>
+             <clipPath id="clip0_1_90">
+             <rect width="42" height="33" fill="none"/>
+             </clipPath>
+            </defs>
+           </svg>
+          </a>
+         </li>
+         <li class="socials__item scroll__item">
+          <a href="https://t.me/dianaartru" class="socials__link" target="_blank" aria-label="ссылка">
+          <svg width="38" height="28" viewBox="0 0 42 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1_91)">
+             <path d="M31.604 7.858L14.3308 16.2169C13.3533 16.691 12.8907 17.6275 13.2056 18.4936L15.0733 23.6499C15.2329 24.0895 15.7308 24.3817 16.3037 24.3817C16.3356 24.3817 16.3679 24.3808 16.4002 24.3789C17.0126 24.344 17.4973 23.9856 17.5787 23.5079L18.0643 20.6806C18.1298 20.3002 18.3631 19.9463 18.7207 19.6848L32.9748 9.27404C33.4056 8.96021 33.4625 8.44633 33.1076 8.07875C32.752 7.71085 32.106 7.61572 31.604 7.858ZM17.5809 18.7222C16.9404 19.1906 16.5231 19.8236 16.406 20.5046L16.1705 21.876L14.8148 18.1331C14.7046 17.8299 14.8668 17.5021 15.2089 17.3362L27.8629 11.2127L17.5809 18.7222Z" fill="white"/>
+             <path d="M41.3165 2.40943C40.7769 2.05004 40.0322 1.95111 39.3726 2.1513L1.23689 13.7105C0.481624 13.9393 -0.00400053 14.4981 -0.000145057 15.1339C0.00379244 15.7703 0.496554 16.326 1.25625 16.5496L10.164 19.1618L13.6388 27.942C13.8296 28.4246 14.3112 28.7997 14.9269 28.9452C15.5423 29.0906 16.2069 28.9867 16.7037 28.6674L21.8832 25.3498C22.1319 25.1905 22.4871 25.1827 22.7468 25.3308L32.0888 30.6599C32.4248 30.8518 32.8215 30.9506 33.2227 30.9506C33.4577 30.9506 33.6943 30.9167 33.9213 30.8478C34.5354 30.6612 34.982 30.2476 35.1157 29.7416L41.9595 3.87594C42.1032 3.33131 41.8569 2.7694 41.3165 2.40943ZM40.3212 3.60878L33.4775 29.4743C33.4527 29.5678 33.3671 29.6067 33.3182 29.6215C33.2689 29.6365 33.1717 29.6531 33.0723 29.5962L23.73 24.2669C23.3124 24.0287 22.8214 23.9104 22.3312 23.9104C21.7965 23.9104 21.2626 24.0512 20.8262 24.3306L15.6456 27.649C15.5534 27.7083 15.4577 27.6977 15.4089 27.6861C15.3599 27.6745 15.2724 27.6417 15.2367 27.5517L11.6401 18.4634C11.5632 18.2692 11.3762 18.1139 11.1337 18.0427L1.84244 15.3181C1.70332 15.2772 1.6737 15.1919 1.67329 15.1275C1.67288 15.0637 1.70143 14.9788 1.83924 14.9371L39.975 3.37797C39.9752 3.37791 39.9754 3.37784 39.9757 3.37778C40.0995 3.3402 40.1911 3.38338 40.2348 3.41239C40.2786 3.44171 40.3483 3.50617 40.3212 3.60878Z" fill="white"/>
+             <path d="M35.0668 16.2514C34.6151 16.1744 34.1697 16.3996 34.0717 16.7544L33.9445 17.2146C33.8465 17.5694 34.1331 17.9195 34.5847 17.9965C34.6445 18.0067 34.7042 18.0116 34.7631 18.0116C35.1482 18.0116 35.4948 17.8014 35.5799 17.4936L35.7071 17.0334C35.805 16.6786 35.5183 16.3285 35.0668 16.2514Z" fill="white"/>
+             <path d="M34.2301 19.2793C33.7779 19.2022 33.3328 19.4274 33.2349 19.7823L31.3105 26.7465C31.2125 27.1013 31.4991 27.4513 31.9506 27.5284C32.0105 27.5385 32.0701 27.5434 32.1289 27.5434C32.5142 27.5434 32.8607 27.3332 32.9458 27.0254L34.8702 20.0611C34.9682 19.7063 34.6816 19.3563 34.2301 19.2793Z" fill="white"/>
+             </g>
+             <defs>
+             <clipPath id="clip0_1_91">
+             <rect width="42" height="33" fill="white"/>
+             </clipPath>
+            </defs>
+           </svg>  
+          </a>
+         </li>
+         <li class="socials__item scroll__item">
+          <a href="https://www.instagram.com/dianaart.ru?igsh=am8yZHkwa3pveWo0" class="socials__link" target="_blank" aria-label="ссылка">
+           <svg width="38" height="28" viewBox="0 0 42 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M21.126 9.57007C16.254 9.57007 12.264 12.7051 12.264 16.5331C12.264 20.3611 16.254 23.4961 21.126 23.4961C25.998 23.4961 29.946 20.3611 29.946 16.5331C29.946 12.7051 25.956 9.57007 21.126 9.57007ZM21.126 21.8461C17.388 21.8461 14.364 19.4701 14.364 16.5331C14.364 13.5961 17.388 11.2201 21.126 11.2201C24.822 11.2201 27.846 13.5961 27.846 16.5331C27.846 19.4701 24.822 21.8461 21.126 21.8461Z" fill="white"/>
+             <path d="M30.996 5.64307C30.072 5.64307 29.232 5.90707 28.602 6.40207C27.972 6.89707 27.636 7.55707 27.636 8.28307C27.636 9.00907 27.972 9.66907 28.602 10.1641C29.232 10.6591 30.072 10.9231 30.996 10.9231C31.92 10.9231 32.76 10.6591 33.39 10.1641C33.978 9.70207 34.356 9.04207 34.398 8.31607V8.28307C34.398 7.59007 34.02 6.93007 33.432 6.46807C32.802 5.94007 31.92 5.64307 30.996 5.64307ZM31.878 8.97607C31.416 9.33907 30.534 9.33907 30.072 8.97607C29.82 8.77807 29.694 8.54707 29.694 8.28307C29.694 8.01907 29.82 7.75507 30.072 7.59007C30.324 7.39207 30.618 7.29307 30.954 7.29307C31.29 7.29307 31.626 7.39207 31.878 7.59007C32.088 7.75507 32.256 8.01907 32.256 8.25007C32.256 8.54707 32.13 8.81107 31.878 8.97607Z" fill="white"/>
+             <path d="M28.476 2.31006H13.734C7.81199 2.31006 3.02399 6.07206 3.02399 10.7251V22.3411C3.02399 26.9941 7.81199 30.7561 13.734 30.7561H28.518C34.44 30.7561 39.228 26.9941 39.228 22.3411V10.7251C39.186 6.07206 34.398 2.31006 28.476 2.31006ZM37.086 22.3411C37.086 26.0701 33.222 29.1061 28.476 29.1061H13.734C8.98799 29.1061 5.12399 26.0701 5.12399 22.3411V10.7251C5.12399 6.99606 8.98799 3.96006 13.734 3.96006H28.518C33.264 3.96006 37.128 6.99606 37.128 10.7251V22.3411H37.086Z" fill="white"/>
+           </svg>            
+          </a>
+         </li>
+        </ul>
+       </div> 
+       <div class="footer__right">
+        <div class="footer__contact">
+         <span class="footer__name scroll__item">
+            Диана Михалева   
+         </span>
+         <a href="tel:+79046523335" class="footer__phone scroll__item" aria-label="телефон">
+            +7&nbsp;904&nbsp;652 33&nbsp;35
+         </a>
+        </div>
+        <div class="footer__contact">
+         <span class="footer__name scroll__item">
+            Евгения Макеева  
+         </span>
+         <a href="tel:+79190117266" class="footer__phone scroll__item" aria-label="телефон">
+            +7&nbsp;919&nbsp;011 72&nbsp;66
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </footer>
+ </div>
+</body>
+</html>
